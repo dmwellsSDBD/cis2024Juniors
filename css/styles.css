@@ -62,7 +62,9 @@ footer {
 }
 
 .three {
-  background-color: #f907;
+  background-image: url("images/laptopNearCoffee.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 1px dashed #f90;
 }
 
@@ -143,25 +145,31 @@ footer {
   }
 
   .one {
-    grid-template-columns: 1 / 4;
+    grid-column: 1 / 4;
   }
 
   .two {
+    grid-column: 1 /3;
   }
 
   .three {
+    grid-column: 3/4;
   }
 
   .four {
+    grid-column: 1/2;
   }
 
   .five {
+    grid-column: 2/3;
   }  
 
   .six {
+    grid-column: 3/4;
   }
 
   .seven {
+    grid-column: 1/4;
   }
 
   footer {
